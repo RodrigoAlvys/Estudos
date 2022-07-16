@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(13, 125, 216);
+    font: normal 16px Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+}
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+video {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+p#h {
+    text-align: center;
+    font-weight: bold;
+}

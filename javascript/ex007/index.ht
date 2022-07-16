@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <p>Ano do Nascimento: <input type="number" id="nasc"></p>
+            <p>Sexo: 
+                <input type="radio" value="Homen" name="drone" id="mas" checked> 
+                <label for="mas">Masculino</label>
+                <input type="radio" name="drone" value="Mulher" id="fem">
+                <label for="fem">Femenino</label></p>
+            <input type="button" value="Verificar" id="ver">
+        </section>
+        <div id="resultado"><p>Preencha os dados acima para ver o resultado!</p></div>
+    </main>
+    <footer>
+        <p>By Rodrigod</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
